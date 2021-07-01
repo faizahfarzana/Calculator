@@ -1,0 +1,58 @@
+﻿@model CalculatorModel
+
+@{
+    ViewBag.Title = "Calculator";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Calculator</h1>
+    <p>Enter numbers and hit result!</p>
+</div>
+
+<div class="row justify-content-center">
+    <div class="col-md-5 p-4">
+        <form asp-controller="Calculator" asp-action="Calculate" method="post">
+            <div class="form-group pt-5">
+                <label asp-for="Number1" class="col-md-2 control-label"></label>
+                <div class="col-md-12">
+                    <input asp-for="Number1" class="form-control"/>
+                    <span asp-validation-for="Number1" class="text-danger"></span>
+                </div>
+            </div>
+            <div class="form-group">
+                <label asp-for="Number2" class="col-md-2 control-label"></label>
+                <div class="col-md-12">
+                    <input asp-for="Number2" class="form-control" />
+                    <span asp-validation-for="Number2" class="text-danger"></span>
+                </div>
+            </div>
+            <div class="form-group">
+                <label class="col-md-2 control-label">Operator</label>
+                <div class="col-md-12">
+                    <select class="form-control" name="Operator">
+                        <option value="+">+</option>
+                        <option value="-">-</option>
+                        <option value="*">*</option>
+                        <option value="/">/</option>
+                    </select>
+                </div>
+            </div>
+            <div class="form-group p-5 text-center">
+                <div class="col-md-12">
+                    <input type="submit" class="btn btn-primary" value="Submit" />
+                </div>
+            </div>
+            <hr>
+        </form>
+        @if (Model.Result.HasValue)
+        {
+            <h1>Result = @Model.Result.Value</h1>
+        }
+    </div>
+</div>
+
+@section Scripts
+{
+    <script src="~/lib/jquery-validation/dist/jquery.validate.min.js"></script>
+    <script src="~/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js"></script>
+}

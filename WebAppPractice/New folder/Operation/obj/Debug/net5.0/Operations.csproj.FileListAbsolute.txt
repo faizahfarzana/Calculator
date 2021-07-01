@@ -1,0 +1,12 @@
+D:\aspnet-training\project_1\WebAppPractice\Libraries\Operation\bin\Debug\net5.0\Operations.deps.json
+D:\aspnet-training\project_1\WebAppPractice\Libraries\Operation\bin\Debug\net5.0\Operations.dll
+D:\aspnet-training\project_1\WebAppPractice\Libraries\Operation\bin\Debug\net5.0\ref\Operations.dll
+D:\aspnet-training\project_1\WebAppPractice\Libraries\Operation\bin\Debug\net5.0\Operations.pdb
+D:\aspnet-training\project_1\WebAppPractice\Libraries\Operation\obj\Debug\net5.0\Operations.csprojAssemblyReference.cache
+D:\aspnet-training\project_1\WebAppPractice\Libraries\Operation\obj\Debug\net5.0\Operations.GeneratedMSBuildEditorConfig.editorconfig
+D:\aspnet-training\project_1\WebAppPractice\Libraries\Operation\obj\Debug\net5.0\Operations.AssemblyInfoInputs.cache
+D:\aspnet-training\project_1\WebAppPractice\Libraries\Operation\obj\Debug\net5.0\Operations.AssemblyInfo.cs
+D:\aspnet-training\project_1\WebAppPractice\Libraries\Operation\obj\Debug\net5.0\Operations.csproj.CoreCompileInputs.cache
+D:\aspnet-training\project_1\WebAppPractice\Libraries\Operation\obj\Debug\net5.0\Operations.dll
+D:\aspnet-training\project_1\WebAppPractice\Libraries\Operation\obj\Debug\net5.0\ref\Operations.dll
+D:\aspnet-training\project_1\WebAppPractice\Libraries\Operation\obj\Debug\net5.0\Operations.pdb

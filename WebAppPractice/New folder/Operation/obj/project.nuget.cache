@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "EBvHG0YWODoM+7OzYeQkYmW0W5B7kONzAIUGYWu7z4YMyydg/BrxkCyn2zkfgwpqssBsQ5dFSHg6f93s7rcYgA==",
+  "success": true,
+  "projectFilePath": "D:\\aspnet-training\\project_1\\WebAppPractice\\Libraries\\Operation\\Operations.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\anjan\\.nuget\\packages\\autofac\\6.1.0\\autofac.6.1.0.nupkg.sha512",
+    "C:\\Users\\anjan\\.nuget\\packages\\autofac.extensions.dependencyinjection\\7.1.0\\autofac.extensions.dependencyinjection.7.1.0.nupkg.sha512",
+    "C:\\Users\\anjan\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\2.1.0\\microsoft.extensions.dependencyinjection.abstractions.2.1.0.nupkg.sha512",
+    "C:\\Users\\anjan\\.nuget\\packages\\system.diagnostics.diagnosticsource\\4.7.1\\system.diagnostics.diagnosticsource.4.7.1.nupkg.sha512"
+  ],
+  "logs": []
+}
